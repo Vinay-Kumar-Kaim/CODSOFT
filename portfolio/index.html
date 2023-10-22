@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinay Kaim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Mukta:wght@300&family=Noto+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="front">
+
+        <div class="navlayout">
+
+            <div class="navbar">
+                <a href="#sk">Skills</a>
+                <a href="#pj">Projects</a>
+                <a href="./achieve.html">Achievements</a>
+
+                <a href="#cm">Contact me</a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="profile">
+        <div class="row">
+            <div class="col">
+                <h2>𝓗𝔂, 𝓜𝔂𝓼𝓮𝓵𝓯 𝓥𝓲𝓷𝓪𝔂 𝓚𝓪𝓲𝓶</h2>
+                <p>A passionate Front end developer having an experience of building Websites with
+                    JavaScript/Reactjs/Nodejs and some other cool libraries and frameworks.</p>
+                <button class="icon"><img src="images/github.webp" alt=""></button>
+                <button class="icon"><img src="images/linkedin.png" alt=""></button>
+                <button class="icon"> <img src="images/Gmail-logo.png" alt=""></button>
+                <br>
+                <button id="send">Contact Me</button>
+                <button id="send1">Download Resume</button>
+
+
+            </div>
+            <div class="col"><img src="images/menImg.avif" alt=""></div>
+        </div>
+    </div>
+    <div class="design">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#00cba9" fill-opacity="1" d="M0,64L1440,192L1440,0L0,0Z"></path>
+        </svg>
+
+    </div>
+    <div class="skills" id="sk">
+        <h1 style="text-align: center;">Skills</h1>
+        <div class="cardbox">
+            <div class="card"><img src="images/js.png" alt=""></div>
+            <div class="card"><img src="images/React-icon.svg.png" alt=""></div>
+            <div class="card"><img src="images/node.png" alt=""></div>
+
+        </div>
+
+    </div>
+    <div class="linear">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#00cba9" fill-opacity="1" d="M0,64L1440,64L1440,0L0,0Z"></path>
+        </svg>
+        
+    </div>
+    <div class="projects" id="pj">
+        <h1 style="text-align: center;"><u>Projects</u></h1>
+        <div class="prj">
+            <img src="images/weather.jpg" alt="">
+            <h5>Weather App</h5>
+            <p>Weather App is a realtime and responsive application designed using Front End technologies. Built with <b>API and JavaScript.</b></p>
+        </div>
+        <div class="prj">
+            <img src="images/airtel.jpg" alt="">
+            <h5>Airtel Website Clone</h5>
+            <p>A responsive front end webpage, similar to the original Airtel website,<b> tech used are HTML,CSS, Js and Bootstrap framework.</b></p>
+        </div>
+        <div class="prj">
+            <img src="images/stationary.jpg" alt="">
+            <h5>Stationary Webpage</h5>
+            <p>It is a webpage designed for a stationary shop to automate his business supplies with their customers using HTML,CSS, Js and frameworks.</p>
+        </div>
+        <button id="knowmore">Know More</button>
+        <p></p>
+        </div>
+
+    </div>
+
+    <footer>
+        
+        <p>2023 India. All Rights Reserved</p>
+        
+        <h5 id="cm">Contact Me: 1909vkk@gmail.com   [linkedin.com/in/vinay-kumar-kaim]  &&   [ github.com/prisioner123 ]</h5>
+        
+    
+        <button id="top">Back to Top</button>
+    </footer>
+    <script>
+let btn=document.querySelector("#top");
+btn.addEventListener("click",()=>{
+    document.body.scrollTop=0;
+    document.documentElement.scrollTop=0;
+
+})
+    </script>
+</body>
+
+</html>
